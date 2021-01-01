@@ -40,3 +40,18 @@ test('add rational number', () => {
   expect(add(2, 7.2)).toBe(9.2);
 })
 
+test('subtract whole number', () => {
+  expect(subtract(1, 3)).toBe(-2);
+  expect(subtract(2, 2)).toBe(0);
+})
+
+test('subtract neg number', () => {
+  expect(subtract(-1, 3)).toBe(-4);
+  expect(subtract(-2, -2)).toBe(0);
+})
+
+test('subtract rational number', () => {
+  expect(subtract(0.5, 3.5)).toBe(-3);
+  expect(subtract(2, 7.2)).toBe(-5.2);
+})
+
