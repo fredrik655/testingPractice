@@ -56,17 +56,17 @@ test('subtract rational number', () => {
 })
 
 test('divide whole number', () => {
-  expect(subtract(1, 3)).toBeCloseTo(0.333);
-  expect(subtract(2, 2)).toBe(1);
+  expect(divide(1, 3)).toBeCloseTo(0.333);
+  expect(divide(2, 2)).toBe(1);
 })
 
 test('divide neg number', () => {
-  expect(subtract(-1, 3)).toBeCloseTo(-0.333);
-  expect(subtract(-2, -2)).toBe(1);
+  expect(divide(-1, 3)).toBeCloseTo(-0.333);
+  expect(divide(-2, -2)).toBe(1);
 })
 
 test('divide rational number', () => {
-  expect(subtract(0.5, 3.5)).toBeCloseTo(0.143);
-  expect(subtract(2, 7.2)).toBeCloseTo(0.278);
+  expect(divide(0.5, 3.5)).toBeCloseTo(0.143);
+  expect(divide(2, 7.2)).toBeCloseTo(0.278);
 })
 
