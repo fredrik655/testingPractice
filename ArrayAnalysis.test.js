@@ -14,7 +14,7 @@ test('check if structure is correct', () => {
   expect(analyze([1,6])).toMatchObject(structureObject);
 });
 
-test.only('average of all numbers', () => {
+test('average of all numbers', () => {
   expect(analyze([1,8,3,4,2,6]).average).toBe(4);
   expect(analyze([1,6]).average).toBeCloseTo(3.5);
   expect(analyze([1,-8,2,6]).average).toBeCloseTo(0.25);

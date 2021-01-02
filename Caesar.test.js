@@ -27,7 +27,7 @@ test('shift with wrapping uppercase', () => {
 })
 
 test('shift with upper and lowercase', () => {
-  expect(caesar('Xzy',3)).toBe('Abc');
+  expect(caesar('Xyz',3)).toBe('Abc');
   expect(caesar('hEllo',14)).toBe('vSzzc');
   expect(caesar('caEsaR',16)).toBe('sqUiqH');
 })
